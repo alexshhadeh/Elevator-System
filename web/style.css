@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css?family=Space Mono");
+
+body {
+    background: linear-gradient(to right, #2c3e50, #bdc3c7);
+}
+
+* {
+    font-family: "Space Mono", sans-serif;
+}
+
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background: grey;
+}
+
+.buttonsContainer {
+    column-gap: 30px;
+    display: inline-flex;
+    margin-top: 30px;
+}
+
+.form {
+    position: relative;
+    background-color: white;
+    border-radius: 5px;
+    width: 600px;
+    height: 450px;
+    margin-top: 7%;
+    padding: 30px;
+    overflow: auto;
+}
+
+.container {
+	display: inline-flex;
+	column-gap: 30px;
+}
+
+.bigContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+p {
+	margin-top: 0px;
+	font-size: 16px;
+	white-space: pre;
+}
+
+p.thick {
+    font-size: 20px;
+    font-weight: bold;
+}

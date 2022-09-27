@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" type="image/x-icon" href="icon.ico">
+	<meta charset="utf-8">
+	<title>Elevator System</title>
+		<link href="style.css" rel="stylesheet">
+		<script type="text/javascript" src="/eel.js"></script>
+		<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div class="bigContainer">
+		<div class="container">
+			<div class="form">
+				<p class="thick">Status:</p>
+				<p id="text"></p>
+			</div>
+			<div class="form">
+				<p class="thick">Status updates:</p>
+				<p id="updates"></p>
+			</div>
+		</div>
+		<br>
+		<div class="buttonsContainer">
+			<input
+				class="button"
+				type="button"
+				value="Set number of elevators"
+				onclick="elevatorsNumber()"
+			/>
+			<input
+				class="button"
+				type="button"
+				value="Pickup"
+				onclick="pickup()"
+			/>
+			<input
+				class="button"
+				type="button"
+				value="Step"
+				onclick="stepp()"
+			/>
+			<input
+				class="button"
+				type="button"
+				value="Status"
+				onclick="status()"
+			/>
+			<input
+				class="button"
+				type="button"
+				value="Update"
+				onclick="update()"
+			/>
+		</div>
+	</div>
+</body>
+</html>
