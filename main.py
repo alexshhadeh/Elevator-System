@@ -252,4 +252,4 @@ if __name__ == "__main__":
 	eel.expose(app.clickUpdate)
 
 # 1000 is width of window and 600 is the height
-eel.start('index.html', size=(1500, 900))
+eel.start('index.html', port=8080, mode=None)
